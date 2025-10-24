@@ -10,8 +10,15 @@
   ],
   "author": "Sebastian Mayr <github@smayr.name>",
   "license": "MIT",
-  "repository": "jsdom/whatwg-url",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsdom/whatwg-url.git"
+  },
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.3",
     "tr46": "^5.1.0",
     "webidl-conversions": "^7.0.0"
   },
@@ -50,5 +57,10 @@
       "scripts/",
       "test/"
     ]
-  }
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/jsdom/whatwg-url/issues"
+  },
+  "homepage": "https://github.com/jsdom/whatwg-url#readme"
 }
